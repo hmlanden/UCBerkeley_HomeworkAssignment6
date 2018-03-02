@@ -1,7 +1,7 @@
 
 # WeatherPy: Weather Analysis Based on Latitude (3/1/2018)
 
-Based on this analysis, latitude can only be used to predict temperature and demonstrates no relationship with a city's humidity, cloudiness, or wind speed.
+Based on this analysis, latitude can only be used to predict temperature and demonstrates no relationship with a city's humidity, cloudiness, or wind speed. There appears to be a strong relationship between a city's latitude and its temperature, in that as the latitude approaches the equator, the temperature increases.
 
 To perform this analysis:
 - To ensure a good sample of data, I generated 1,000 random, unique cities around the world using a combination of randomized latitude/longitude pairs and Citipy (to ensure I returned an actual city, not just a location on a map).
