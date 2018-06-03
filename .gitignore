@@ -1,0 +1,8 @@
+# ignore localenv
+localenv.py
+
+#checkpoints
+.ipynb_checkpoints
+
+# pycache
+__pycache__
