@@ -3,6 +3,7 @@ localenv.py
 
 #checkpoints
 .ipynb_checkpoints
+.ipynb_checkpoints/WeatherPy-checkpoint.ipynb
 
 # pycache
 __pycache__
