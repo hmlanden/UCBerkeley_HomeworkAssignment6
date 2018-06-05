@@ -1,12 +1,12 @@
 
-# WeatherPy: Weather Analysis Based on Latitude (3/1/2018)
+# WeatherPy: Weather Analysis Based on Latitude (6/4/2018)
 
 Based on this analysis, latitude can only be used to predict temperature and demonstrates no relationship with a city's humidity, cloudiness, or wind speed.
 
 To perform this analysis:
-- To ensure a good sample of data, I generated 1,000 random, unique cities around the world using a combination of randomized latitude/longitude pairs and Citipy (to ensure I returned an actual city, not just a location on a map).
-- To ensure that I didn't have false positives when determining if a city was a duplicate (for example, Bagdhad, Arizona and Baghdad, Iraq are two very different cities), I used the unique ID that OpenWeatherMap assigns each city to eliminate my dupes.
-- I pulled weather data that corresponded to those cities from OpenWeatherMap on 3/1/2018 at approximately 3:00 AM PST.
+- To ensure a good sample of data, I generated 1,500 random, unique cities around the world using a combination of randomized latitude/longitude pairs and Citipy (to ensure I returned an actual city, not just a location on a map). Not all of these cities return results when searching OpenWeatherAPI, and I wanted to make sure that I had at least 1,000 data points.
+- To ensure that I didn't have false positives when determining if a city was a duplicate (for example, Bagdhad, Arizona and Baghdad, Iraq are two very different cities), I created a pseudo-hash by combining the city and country names.
+- I pulled weather data that corresponded to those cities from OpenWeatherMap on 6/4/2018 at approximately 11 PM PST.
 
 
 ```python
