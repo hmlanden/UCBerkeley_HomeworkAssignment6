@@ -386,8 +386,7 @@ py.iplot(fig, filename='latXtemp-fancy.png')
 
 
 
-<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~hmlanden518213085/6.embed" height="525px" width="100%"></iframe>
-
+<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plot.ly/~hmlanden518213085/6.embed"></iframe>
 
 
 ## Latitude vs Humidity (%)
