@@ -321,7 +321,9 @@ py.iplot(fig, filename=f'datapoints {date}')
 
 
 
-<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~hmlanden518213085/14.embed" height="525px" width="100%"></iframe>
+<div>
+    <a href="https://plot.ly/~hmlanden518213085/14/?share_key=klq6CQqDp1bA9RSqRlUJxu" target="_blank" title="datapoints 2018-06-12" style="display: block; text-align: center;"><img src="https://plot.ly/~hmlanden518213085/14.png?share_key=klq6CQqDp1bA9RSqRlUJxu" alt="datapoints 2018-06-12" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+</div>
 
 
 
@@ -388,7 +390,6 @@ py.iplot(fig, filename='latXtemp-fancy.png')
 
 <div>
     <a href="https://plot.ly/~hmlanden518213085/6/?share_key=tHgvrLvYPCDbVCvVXAI8C4" target="_blank" title="latXtemp-fancy.png" style="display: block; text-align: center;"><img src="https://plot.ly/~hmlanden518213085/6.png?share_key=tHgvrLvYPCDbVCvVXAI8C4" alt="latXtemp-fancy.png" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
-    <script data-plotly="hmlanden518213085:6" sharekey-plotly="tHgvrLvYPCDbVCvVXAI8C4" src="https://plot.ly/embed.js" async></script>
 </div>
 
 
@@ -445,7 +446,9 @@ py.iplot(fig, filename='latXhum-fancy.png')
 
 
 
-<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~hmlanden518213085/16.embed" height="525px" width="100%"></iframe>
+<div>
+    <a href="https://plot.ly/~hmlanden518213085/16/?share_key=a5OaYy5ewzijz88Zem9WKR" target="_blank" title="latXhum-fancy.png" style="display: block; text-align: center;"><img src="https://plot.ly/~hmlanden518213085/16.png?share_key=a5OaYy5ewzijz88Zem9WKR" alt="latXhum-fancy.png" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+</div>
 
 
 
@@ -501,7 +504,9 @@ py.iplot(fig, filename='latXcloud-fancy.png')
 
 
 
-<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~hmlanden518213085/18.embed" height="525px" width="100%"></iframe>
+<div>
+    <a href="https://plot.ly/~hmlanden518213085/18/?share_key=XXgM9fBNg3tNRXOiUBqxcB" target="_blank" title="latXcloud-fancy.png" style="display: block; text-align: center;"><img src="https://plot.ly/~hmlanden518213085/18.png?share_key=XXgM9fBNg3tNRXOiUBqxcB" alt="latXcloud-fancy.png" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+</div>
 
 
 
@@ -557,6 +562,8 @@ py.iplot(fig, filename='latXwind-fancy.png')
 
 
 
-<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~hmlanden518213085/20.embed" height="525px" width="100%"></iframe>
+<div>
+    <a href="https://plot.ly/~hmlanden518213085/20/?share_key=nHwXaZzVQRwn5yw5WwpdBK" target="_blank" title="latXwind-fancy.png" style="display: block; text-align: center;"><img src="https://plot.ly/~hmlanden518213085/20.png?share_key=nHwXaZzVQRwn5yw5WwpdBK" alt="latXwind-fancy.png" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+</div>
 
 
