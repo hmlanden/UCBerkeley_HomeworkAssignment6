@@ -1,18 +1,49 @@
-# also define my print functions to make life cleaner
-def displayProcessingCity(i,response):
-    print(f"City #{i+1}")
-    print(f"City URL: http://api.openweathermap.org/data/2.5/weather?id={response['id']}")
-    print(f"City Name: {response['name']}")
-    print(f"City ID: {response['id']}")
-    print("----------------------------------------------------------------------------")  
+# -----------------------------------------------------------------------------------
+# Create function that will return a scatter with the appropriate color and data
+# for given inputs
+# -----------------------------------------------------------------------------------
+def generateScatterPoints(currDataframe, currContinent, xAxis, yAxis, palette):
+    """
+    Return a Plotly scatter based on the given inputs.
+    
+    Keyword arguments:
+    currDataframe -- Pandas dataframe being processed
+    currContinent -- name (string) of the continent that we are filtering by
+    xAxis -- name (string) of the column we want on the x axis 
+    yAxis -- name (string) of the column we want on the y axis
+    palette -- takes in a dict of continent:hex code pairs
+    """
+    import plotly.graph_objs as go
+    
+    # create filtered dataframe
+    continent_df = currDataframe[currDataframe['continent']==currContinent]
+    
+    scatter = go.Scatter(x = continent_df[xAxis],
+                         y = continent_df[yAxis],
+                         name = currContinent,
+                         mode = 'markers',
+                         marker = dict(
+                                  size = 10,
+                                  color = palette[currContinent]
+                                  ),
+                         text = continent_df['city'] + ", " + continent_df['country'],
+                         hoverinfo = 'text'
+                         )
+    return scatter;
 
-def displayFailedCity(i, city, country):
-    print(f"City #{i+1}: FAILED")
-    print(f"{city}, {country}")
-    print("----------------------------------------------------------------------------")  
 
+# -----------------------------------------------------------------------------------
+# CONTINENT SORTER
+# Takes in a country abbrevation and returns the country's continent.
+# -----------------------------------------------------------------------------------
 
 def continentFromCountry(countryAbbr):
+    """
+    Takes in a country name abbreviation and returns the continent that country is on.
+    
+    keyword arguments:
+    countryAbbr - two-letter country abbreviation, string
+    """
     # set up country>continent sets
     africa_set =('AO', 'BF', 'BI', 'BJ', 'BW', 'CD', 'CF', 'CG', 'CI', 'CM', 'CV', 'DJ', 
                  'DZ', 'EG', 'EH', 'ER', 'ET', 'GA', 'GH', 'GM', 'GN', 'GQ', 'GW', 'KE', 
@@ -57,4 +88,21 @@ def continentFromCountry(countryAbbr):
         return "South America";
     else:
         return "Unknown";
-    
+  
+# -----------------------------------------------------------------------------------
+# TEST FUNCTIONS
+# These functions were used for testing API calls while developing scripts.
+# -----------------------------------------------------------------------------------
+
+# Used for testing 
+def displayProcessingCity(i,response):
+    print(f"City #{i+1}")
+    print(f"City URL: http://api.openweathermap.org/data/2.5/weather?id={response['id']}")
+    print(f"City Name: {response['name']}")
+    print(f"City ID: {response['id']}")
+    print("----------------------------------------------------------------------------")  
+
+def displayFailedCity(i, city, country):
+    print(f"City #{i+1}: FAILED")
+    print(f"{city}, {country}")
+    print("----------------------------------------------------------------------------")  
