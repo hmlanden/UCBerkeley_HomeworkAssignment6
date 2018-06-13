@@ -327,6 +327,7 @@ py.iplot(fig, filename=f'datapoints {date}')
 
 
 
+
 # Plotting Our Data
 ## Latitude vs Temperature (F)
 There is a definite relationship between latitude and temperature. As we approach the equator, or 0 degrees latitude, temperature increases.
