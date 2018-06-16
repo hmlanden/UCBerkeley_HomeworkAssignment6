@@ -318,8 +318,8 @@ fig = dict(data=data, layout=layout)
 py.iplot(fig, filename=f'datapoints {date}')
 ```
 
-
-
+### Plotly Warning: 
+Click the graph to explore on Plot.ly. Unfortunately, can't make them interactive readily in this venue!
 
 <div>
     <a href="https://plot.ly/~hmlanden518213085/14/?share_key=klq6CQqDp1bA9RSqRlUJxu" target="_blank" title="datapoints 2018-06-12" style="display: block; text-align: center;"><img src="https://plot.ly/~hmlanden518213085/14.png?share_key=klq6CQqDp1bA9RSqRlUJxu" alt="datapoints 2018-06-12" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
@@ -387,7 +387,8 @@ py.iplot(fig, filename='latXtemp-fancy.png')
 ```
 
 
-
+### Plotly Version: 
+Click the graph to explore on Plot.ly. Unfortunately, can't make them interactive readily in this venue!
 
 <div>
     <a href="https://plot.ly/~hmlanden518213085/6/?share_key=tHgvrLvYPCDbVCvVXAI8C4" target="_blank" title="latXtemp-fancy.png" style="display: block; text-align: center;"><img src="https://plot.ly/~hmlanden518213085/6.png?share_key=tHgvrLvYPCDbVCvVXAI8C4" alt="latXtemp-fancy.png" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
@@ -444,8 +445,8 @@ fig = dict(data=data, layout=layout)
 py.iplot(fig, filename='latXhum-fancy.png')
 ```
 
-
-
+### Plotly Version: 
+Click the graph to explore on Plot.ly. Unfortunately, can't make them interactive readily in this venue!
 
 <div>
     <a href="https://plot.ly/~hmlanden518213085/16/?share_key=a5OaYy5ewzijz88Zem9WKR" target="_blank" title="latXhum-fancy.png" style="display: block; text-align: center;"><img src="https://plot.ly/~hmlanden518213085/16.png?share_key=a5OaYy5ewzijz88Zem9WKR" alt="latXhum-fancy.png" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
@@ -502,8 +503,8 @@ fig = dict(data=data, layout=layout)
 py.iplot(fig, filename='latXcloud-fancy.png')
 ```
 
-
-
+### Plotly Version: 
+Click the graph to explore on Plot.ly. Unfortunately, can't make them interactive readily in this venue!
 
 <div>
     <a href="https://plot.ly/~hmlanden518213085/18/?share_key=XXgM9fBNg3tNRXOiUBqxcB" target="_blank" title="latXcloud-fancy.png" style="display: block; text-align: center;"><img src="https://plot.ly/~hmlanden518213085/18.png?share_key=XXgM9fBNg3tNRXOiUBqxcB" alt="latXcloud-fancy.png" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
@@ -560,8 +561,8 @@ fig = dict(data=data, layout=layout)
 py.iplot(fig, filename='latXwind-fancy.png')
 ```
 
-
-
+### Plotly Version: 
+Click the graph to explore on Plot.ly. Unfortunately, can't make them interactive readily in this venue!
 
 <div>
     <a href="https://plot.ly/~hmlanden518213085/20/?share_key=nHwXaZzVQRwn5yw5WwpdBK" target="_blank" title="latXwind-fancy.png" style="display: block; text-align: center;"><img src="https://plot.ly/~hmlanden518213085/20.png?share_key=nHwXaZzVQRwn5yw5WwpdBK" alt="latXwind-fancy.png" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
