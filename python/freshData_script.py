@@ -118,5 +118,5 @@ cleanedWeather_df = cleanedWeather_df[['cityID', 'date', 'time', 'city', 'countr
 
 # export the csv
 date = dt.datetime.now().strftime('%Y-%m-%d')
-filename = f"csv/WeatherData{date}.csv"
+filename = f"../csv/WeatherData{date}.csv"
 cleanedWeather_df.to_csv(filename)
