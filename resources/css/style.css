@@ -3,18 +3,25 @@
 }
 
 body {
-    padding-top: 110px;
+    padding-top: 65px;
 }
 
 #headerHeader {
     padding-top: 12px;
-    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
     font-size: 32px;
     font-style: normal;
     font-variant: normal;
 }
 
 h2 {
+    font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+    font-size: 32px;
+    font-style: normal;
+    font-variant: normal;
+}
+
+h4 {
     font-family: Futura, "Trebuchet MS", Arial, sans-serif;
     font-size: 32px;
     font-style: normal;
@@ -22,6 +29,35 @@ h2 {
 }
 
 #homeImage {
-    height: 610px;
+    height: auto;
     width: auto;
+}
+
+.navbar {
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-variant: normal;
+}
+
+html {
+    font-size: 1vw;
+}
+
+@include media-breakpoint-up(sm) {
+    html {
+        font-size: 1.2vw;
+    }
+}
+
+@include media-breakpoint-up(md) {
+    html {
+        font-size: 1.4vw;
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    html {
+        font-size: 1.6vw;
+    }
 }
