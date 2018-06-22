@@ -23,7 +23,7 @@ h2 {
 
 h4 {
     font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-    font-size: 32px;
+    font-size: 20px;
     font-style: normal;
     font-variant: normal;
 }
@@ -38,26 +38,4 @@ h4 {
     font-size: 20px;
     font-style: normal;
     font-variant: normal;
-}
-
-html {
-    font-size: 1vw;
-}
-
-@include media-breakpoint-up(sm) {
-    html {
-        font-size: 1.2vw;
-    }
-}
-
-@include media-breakpoint-up(md) {
-    html {
-        font-size: 1.4vw;
-    }
-}
-
-@include media-breakpoint-up(lg) {
-    html {
-        font-size: 1.6vw;
-    }
 }
