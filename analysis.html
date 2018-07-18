@@ -10,16 +10,18 @@
     <!-- Import Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
     <link rel="stylesheet" href="resources/css/style.css">
+
+    <!-- Plotly.js -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 </head>
 
 <body>
     <!-- Navbar Section -->
     <!-- Borrowed this code (which I wrote) from another project of mine and edited it-->
-    <div class="fixed-top">
+    <div class="sticky-top">
         <div class="container-fluid" id="navbar">
             <div class="row">
                 <div class="col">
-                    <h2 id="headerHeader">Global Weather Exploration</h2>
                     <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
                         <a class="navbar-brand" href="#">Menu</a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,10 +43,13 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col">
-                In progress
+                <h2 class="display-2">Latitude & Weather Conditions</h2>
+                <div id="plotly-div"></div>
             </div>
         </div>
     </div>
+    <!-- Run scripts -->
+    <script src="resources/js/plotly.js"></script>
 
     <!-- Import stuff that Bootstrap needs-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
