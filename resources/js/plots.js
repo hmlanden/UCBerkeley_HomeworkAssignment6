@@ -398,4 +398,5 @@ function updatePlotly() {
 STEP 6:
 Generate first plot/
 -------------------------------------------------*/
+processData(dataset_20180616);
 updatePlotly();
